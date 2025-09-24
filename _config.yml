@@ -118,3 +118,19 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+
+  # Custom styling to fix alignment
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Add custom CSS directly
+sass:
+  style: compressed
+
+# This adds custom CSS to every page
+additional_links:
+  - rel: stylesheet
+    type: text/css
+    href: data:text/css;base64,LyogQ3VzdG9tIENTUyB0byBmaXggYWxpZ25tZW50ICovCi5jb250YWluZXIgewogIG1heC13aWR0aDogMTE0MHB4OwogIG1hcmdpbjogMCBhdXRvOwogIHBhZGRpbmc6IDAgMTVweDsKfQoKLmNvbnRlbnQtc2VjdGlvbiB7CiAgYm9yZGVyLXRvcDogMXB4IGRhc2hlZCAjY2NjOwogIG1hcmdpbjogNDBweCAwIDIwcHggMDsKICBwYWRkaW5nLXRvcDog
