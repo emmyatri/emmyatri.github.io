@@ -45,23 +45,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Operation - Monopoly
+        link: https://github.com/BornB4Google/swe-3313-fall-2025-team-09
         link_text: Link Text
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/BornB4Google/swe-3313-fall-2025-team-09
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+          "The same thing we do every night Pinky... try and take over the world."
+          description: | # this will include new lines to allow paragraphs
+          A development team of 5 on a mission to market the world's most marketable companies.
+         - title: Experience
     layout: list
     content:
       - layout: right
