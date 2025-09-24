@@ -143,4 +143,16 @@ additional_head: |
       border-top: none;
       padding-top: 0;
     }
+    
+    /* NEW: Fix shorter separator lines */
+    .content .list-container .layout {
+      border-top: 1px dotted #dee2e6;
+      margin: 30px 0;
+      padding-top: 20px;
+    }
+    
+    .content .list-container .layout:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
   </style>
