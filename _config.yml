@@ -38,7 +38,7 @@ additional_links:
 about_profile_image: assets/images/profile.png
 about_content: | # this will include new lines to allow paragraphs
 An individual who is committed to achieving above my previously perceived skill grade.   
-If there was a problem, yo I'll solve it. Check out the hook while my DJ revolves it. 
+If there was a problem, yo I'll solve it. Check out the hook while my DJ revolves it.  
 
 content:
   - title: Projects # Title for the section
