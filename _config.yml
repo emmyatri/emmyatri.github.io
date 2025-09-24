@@ -17,21 +17,7 @@ website: emmyatri.github.io
 darkmode: true
 
 # Social links
-github_username:  emmyatri
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: emmyatri
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -47,16 +33,17 @@ content:
       - layout: left
         title: Operation - Monopoly
         link: https://github.com/BornB4Google/swe-3313-fall-2025-team-09
-        link_text: Link Text
+        link_text: View on GitHub
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project
             icon: fab fa-github
             url: https://github.com/BornB4Google/swe-3313-fall-2025-team-09
         quote: >
           "The same thing we do every night Pinky... try and take over the world."
-          description: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs
           A development team of 5 on a mission to market the world's most marketable companies.
-         - title: Experience
+          
+  - title: Experience
     layout: list
     content:
       - layout: right
@@ -68,6 +55,7 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
+          
   - title: Education
     layout: list
     content:
@@ -79,6 +67,7 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -113,3 +102,29 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+
+# Custom styling
+additional_head: |
+  <style>
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    
+    .content .container {
+      padding: 0 15px;
+    }
+    
+    .content h2 {
+      text-align: center;
+      margin: 40px 0 30px 0;
+      padding: 30px 0 0 0;
+      border-top: 1px dashed #dee2e6;
+    }
+    
+    .content h2:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+  </style>
